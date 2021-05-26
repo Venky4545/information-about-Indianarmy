@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title> Webpage designing </title>
+	<style>
+    h1{
+	text-align:center;
+	
+	}
+	.three:hover{
+background-color:blue;
+cursor:pointer;
+}
+.b1{
+background-color:blue;
+
+}
+
+.two{
+background-color:EAE9E9;
+}
+	</style>
+	</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body background="images/tiranga-bg.jpg">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12">
+<h1>Login </h1>
+</div>
+</div>
+<form name="myform" onsubmit="test()">
+<div class="row">
+<div class="col-12">
+<h6>USER ID</h6>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<input type="text" name="fname" placeholder="Enter user ID" size="55" class="two">
+</div>
+</div>
+
+<div class="row">
+<div class="col-12">
+<h6> Password<h6>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12">
+<input type="password" name="pwd" placeholder="Enter password" size="55" class="two">
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-2">
+<input type="submit" value="Login" class="three">
+</div>
+<div class="col-2">
+<input type="reset"  value="Cancel"   class="three">
+</div>
+<div class="col-8">
+</div>
+</div>
+</form>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-12">
+<marquee class="text-danger">If you are new user please register and login </marquee>
+</div>
+</div>
+
+<div class="row">
+<div class="col-2">
+ <button class="bg-danger"><a href="register.html">REGISTER</a></button>
+ </div>
+ <div class="col-2">
+ <button class="bg-danger"><a href="index.html">Back to Home Page</a></button>
+ </div>
+ <div class="col-8">
+ 
+ </div>
+ </div>
+<script type="text/javascript">
+function test(){
+var fn=document.myform.fname.value;
+if(fn=="venky"){
+alert("welcome venkat");
+}else {
+alert("You are not Registered please register and Login ");
+}
+}
+function test(){
+var pwd=document.myform.pwd.value;
+if(pwd=="4545"){
+alert("welcome venkat");
+}else {
+alert("You are not Registered please register and Login");
+}
+}
+</script>
+
+</body>
+</html>
